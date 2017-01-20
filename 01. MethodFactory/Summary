@@ -1,0 +1,13 @@
+Alternarywą do używania konstruktorów są statyczne metody fabrykujące. W wielu przypadkach są lepsze od konstruktorów,
+ponieważ:
+ - w przeciwieństwie do konsktruktorów mogą mieć nazwy inne niż po prostu typ zwracany
+ - może być wiecej niż jedna metoda fabrykująca posiadająca takie same typy i kolejność argumentów
+ - nie jest wymagane utworzenie obiektu przy użyciu takiej metody
+ - możliwość zwrócenia instancji podtypu
+ - pozwalają skrócić deklaracje typów generycznych (newInstance() zamiast new HashMap<String, List<String>>())
+
+Konsktruktory są lepsze w innych kwestiach
+ - jeżeli mamy publiczną metode fabric, i prywatny konsktruktor to nie możemy dziedziczyć po takiej klasie
+
+W przykładzie jest użyty wzorzec service provider i użyty jest ServiceLoader, który pozwala ładować implementacje
+danego interfejsu bez ingerencje w kod bazowy.
