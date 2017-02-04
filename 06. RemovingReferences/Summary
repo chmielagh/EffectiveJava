@@ -1,0 +1,4 @@
+Mimo tego, że język Java wyposażony jest w Garbage Collector to programista i tak musi uważać na wycieki pamięci, a mogą się one zdarzać w kilku przypadkach:
+1. Kiedy klasa sama zarządza częścią pamięci, na przykładzie stacka, który przy operacji pop() może nie zwalniać pamięci dla elementów już nieistotnych, dlatego trzeba zadbać o przypisaniu im wartości null;
+2. Przypadki buforów, które powinny być co jakiś czas czyszczone, albo można używać specjalne strukturty jak WeakHashMap czy LinkedHashMap
+3. Nasłuchy i metody zwrotne, wtedy też można używać WeakHashMap.
