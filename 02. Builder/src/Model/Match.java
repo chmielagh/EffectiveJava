@@ -35,7 +35,7 @@ public class Match {
 
    @Override
    public String toString() {
-      return String.format("%s %s %s %s %s\nReferee: %s\n%s", date, time, host, score, guest, referee, events);
+      return String.format("%s %s %s %s %s%nReferee: %s%n%s", date, time, host, score, guest, referee, events);
    }
 
    public static class MatchBuilder implements Builder<Match> {

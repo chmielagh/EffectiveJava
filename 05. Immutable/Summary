@@ -1,0 +1,5 @@
+Jeżeli używamy obiekty klasy, których obiekty powinny by niezmienne, to należy korzystać z istniejących już obiektów, zamiast za każdym razem tworzyć nowy obiekt używając konstruktora. Przydatne w tym celu mogą być metody fabrykujące.
+Jeśli w danej klasy często używamy pewnych stałych pól to warto zamiast za każdym razem je inicjalizować, zainicjalizować je w bloku statycznym.
+Często obikety niezmienne są oczywiste, jednak nie zawsze, przykładem jest metoda keySet kolekcji Map, powieważ przy każdym wywołaniu zwraca ten sam obiekt, który może być jednak modyfikowany. Zatem jeżeli przypiszemy do jakiejs zmiennej keySet to po usunieciu, badz dodaniu itemu do mapy będzie skutkowało zmianą tej zmiennej.
+Należy uważać, żeby w długich pętlach, czy często wykonywanych metodach nie były nieptorzebnie wywoływane autoboxingi, może to spowolnić daną metodę kilkadziesiąt razy.
+Nie zawsze korzystanie z tego samego obiektu jest dobre wydajnościowo, trzymanie puli takich obiektów może być zbyt cięzkie
