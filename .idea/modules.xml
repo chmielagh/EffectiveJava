@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/02. Builder/Builder.iml" filepath="$PROJECT_DIR$/02. Builder/Builder.iml" />
       <module fileurl="file://$PROJECT_DIR$/01. MethodFactory/MethodFactory.iml" filepath="$PROJECT_DIR$/01. MethodFactory/MethodFactory.iml" />
       <module fileurl="file://$PROJECT_DIR$/03. Singleton/Singleton.iml" filepath="$PROJECT_DIR$/03. Singleton/Singleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04. UncreatableClass/UncreatableClass.iml" filepath="$PROJECT_DIR$/04. UncreatableClass/UncreatableClass.iml" />
       <module fileurl="file://$PROJECT_DIR$/Util/Util.iml" filepath="$PROJECT_DIR$/Util/Util.iml" />
     </modules>
   </component>

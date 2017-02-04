@@ -1,0 +1,2 @@
+Jeżeli tworzymy pewnego rodzaju klasy narzędziowe (Util) i niepożądane jest stworzenie instancji takiej klasy potrzebne jest zapewnienie, że nie będzie można tego zrobić. Zrobienie takiej klasy abstrakcyjną jest złe ponieważ dajemy możliwość dziedziczenia po takiej klasie.
+Należy wtedy zablokować użycie konstruktora (należy pamiętać, że nawet jak nie stworzymy jawnie konstruktora to i tak będzie istniał publiczny konstruktor publiczny).
