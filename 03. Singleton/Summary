@@ -1,0 +1,6 @@
+Istanieje kilka sposobów stworzenia singletonów:
+1. Klasa posiada publiczne statyczne finalne pole będące typu klasy, które jest inicjalizowane odrazu korzystając z prywatnego konstruktora. Taki konstruktor zapewnia tylko jedną instancje pola, jednak utrudnia testowanie klasy - możliwe przez użycie refleksji. Przykład użycia:
+    _Class instance = _Class.INSTANCE;
+2. Podobnie jak w pierwszym przypadku, jednak pole jest prywatne i nie inicjalizowane odrazu, jest natomiast prywatna statyczna metoda getInstance, która zwraca instancje oraz w przypadku wartosci null inicjalizuje ją. W obu przypadkach aby utrzymac serializację, trzeba nie tylko implementować interfejs Serializable, ale również zaimplementować metodę ReadResolve();
+    _Class instance = _Class.getInstance();
+3. Trzecim sposobem jest stworzenie Enuma zamiast klasy, który posiada pole INSTANCE, takie podejście jest bardziej spójne oraz zapewnia serializację oraz brak duplikatów.
