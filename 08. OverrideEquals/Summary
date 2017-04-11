@@ -1,0 +1,15 @@
+Nie zawsze należy nadpisywać metode Equal. Bazowa implementacja zwróci prawdę tylko wtedy jeżeli porównywany jest dokładnie ten sam obiekt. Dlatego jeżeli jest to działanie prawidłowe nie należy nadpisywać Equal. Dodatkowo jeżeli jest to w klasie private/package-private i metoda Equal nigdy nie powinna być wywołana to należy przesłonić ją i wyrzucić AssertionError.
+Equals powinna być przesłonięta jeżeli ma zwracać czy obiekty mają tą samą logikę/stan. Wtedy powinna być:
+ * Zwrotna ( x.equals(x)==true )
+ * Symetryczna ( x.equals(y)==y.equals(x) )
+ * Przechodnia ( x.equals(y) && y.equals(z) => x.equals(z) )
+ * Spójna (deterministyczna)
+ * Dla niepustych x ma zachodzić x.equals(null)==false
+Jeśli chcemy stworzyć klasę dziedziczącą to wychodzi wiele problemów przy próbie implementacji equals, dlatego należy korzystać z kompozycji zamiast dziedziczenia. Tego problemu nie ma jeżeli dziedziczymy po klasie abstrakcyjnej.
+Zasady tworzenia equals:
+ * Użycie ==, żeby sprawdzić czy to ten sam obiekt
+ * Użycie instanceof, żeby sprawdzić czy typy są właściwe
+ * Rzutowanie na właściwy typ
+ * Sprawdzić równość każdego ważnego parametru
+ * Sprawdzic czy jest sumetryczna, przechodnia i spójna
+Jeżeli nadpisaliśmy equals należy też nadpisać odpowiednio hashcode

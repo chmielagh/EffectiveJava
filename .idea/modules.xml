@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/05. Immutable/Immutable.iml" filepath="$PROJECT_DIR$/05. Immutable/Immutable.iml" />
       <module fileurl="file://$PROJECT_DIR$/01. MethodFactory/MethodFactory.iml" filepath="$PROJECT_DIR$/01. MethodFactory/MethodFactory.iml" />
       <module fileurl="file://$PROJECT_DIR$/07. OmitFinalize/OmitFinalize.iml" filepath="$PROJECT_DIR$/07. OmitFinalize/OmitFinalize.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08. OverrideEquals/OverrideEquals.iml" filepath="$PROJECT_DIR$/08. OverrideEquals/OverrideEquals.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09. OverrideHashcode/OverrideHashcode.iml" filepath="$PROJECT_DIR$/09. OverrideHashcode/OverrideHashcode.iml" />
       <module fileurl="file://$PROJECT_DIR$/06. RemovingReferences/RemovingReferences.iml" filepath="$PROJECT_DIR$/06. RemovingReferences/RemovingReferences.iml" />
       <module fileurl="file://$PROJECT_DIR$/03. Singleton/Singleton.iml" filepath="$PROJECT_DIR$/03. Singleton/Singleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/04. UncreatableClass/UncreatableClass.iml" filepath="$PROJECT_DIR$/04. UncreatableClass/UncreatableClass.iml" />
