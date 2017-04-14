@@ -1,0 +1,1 @@
+Nie zawsze jest spełniony warunek równości, to znaczy a.compareTo(b)=0 != a.equals(b), natomiast warto to napisać w dokumentacji, jeżeli wysepuje taka niespójność (przykład BigDecimal). Jeżeli klasy sie nie zgadzają należyw wyrzucić ClassCastException.

@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/02. Builder/Builder.iml" filepath="$PROJECT_DIR$/02. Builder/Builder.iml" />
       <module fileurl="file://$PROJECT_DIR$/05. Immutable/Immutable.iml" filepath="$PROJECT_DIR$/05. Immutable/Immutable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/12. ImplementsComparable/ImplementsComparable.iml" filepath="$PROJECT_DIR$/12. ImplementsComparable/ImplementsComparable.iml" />
       <module fileurl="file://$PROJECT_DIR$/01. MethodFactory/MethodFactory.iml" filepath="$PROJECT_DIR$/01. MethodFactory/MethodFactory.iml" />
       <module fileurl="file://$PROJECT_DIR$/07. OmitFinalize/OmitFinalize.iml" filepath="$PROJECT_DIR$/07. OmitFinalize/OmitFinalize.iml" />
       <module fileurl="file://$PROJECT_DIR$/11. OverrideClone/OverrideClone.iml" filepath="$PROJECT_DIR$/11. OverrideClone/OverrideClone.iml" />
