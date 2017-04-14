@@ -1,0 +1,1 @@
+Metoda toString powinna być nadpisywana w każdej klasie. Powinna być niezmienna i dobrze udokumentowana. Jeśli może być zmienna należy to umieścić w komentarzu.
