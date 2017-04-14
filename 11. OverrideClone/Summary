@@ -1,0 +1,7 @@
+Założenia dla metody clone
+x.clone() != x;
+x.clone().equals(x);
+x.clone().getClass() == x.getClass();
+
+Powinno się w metodzie clone wywoływać super.clone() i rzutować. Potrzebne jest wtedy aby wszystkie klasy bazowe równiez implementowały clone. Klasa taka musi też implementować interfejs Cloneable, mimo że nie ma on żadnych metod. Metoda clone musi być publiczna. Często będzie wymagane ręczne kopiowanie elementów danego obiektu, które posiadają złożoną strukturę.
+Często lepszym rozwiązaniem od klonowania jest udostępnienie konstruktora kopiującego, bądź stworzenie factory.
