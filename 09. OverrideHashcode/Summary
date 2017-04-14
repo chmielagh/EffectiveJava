@@ -1,0 +1,1 @@
+Jeśli przesłaniamy Equals musimy też przesłonic Hashcode. Najlepiej hashcode liczyc z sumy iloczynów wszystkich pól znaczących i liczb pierwszych. Dobrą liczbą jako czynnik jest 31 ponieważ maszyna przetłumaczy 31i na i<<5-i co jest dużo bardziej optymalne. IDEA sama może wygenerować dobry hashcode przy alt+insert.
